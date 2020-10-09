@@ -5,14 +5,18 @@ jest.mock('./translationService.js');
 
 describe('Translator', () => {
   it('should mock the translation service successfully', () => {
-    // Implement mock function for getTranslationData.
-    // Hint: Jest has a method called 'mockImplementation'
+    const mockData = [{
+      language: "spanish",
+      words: {
+        hi: 'Hola'
+      }}]
+    getTranslationData.mockImplementation(() => mockData)
     const result = translate('spanish', 'hi');
     expect(getTranslationData).toHaveBeenCalled();
     expect(result).toBe('Hola');
   });
 
   afterEach(() => {
-    jest.clearAllMocks();
+    jest.clearAllMocks(); 
   });
 });
