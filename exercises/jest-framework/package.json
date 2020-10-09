@@ -1,0 +1,22 @@
+{
+  "name": "jest-framework",
+  "version": "1.0.0",
+  "description": "Jest sample framework",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/* --fix",
+    "test": "jest src/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "jest": "^24.5.0"
+  }
+}

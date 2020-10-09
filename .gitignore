@@ -1,0 +1,6 @@
+exercises/**/node_modules
+exercises/**/package-lock.json
+exercises/**/yarn.lock
+exercises/ayespy-framework/baseline/*
+exercises/ayespy-framework/latest/*
+exercises/ayespy-framework/generatedDiffs/*

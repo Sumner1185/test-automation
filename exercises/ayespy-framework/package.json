@@ -1,0 +1,16 @@
+{
+  "name": "ayespy-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "snap": "ayespy snap --browser chrome --config ayespy-config.json",
+    "update-baseline": "ayespy update-baseline --browser chrome --config ayespy-config.json",
+    "compare": "ayespy compare --browser chrome --config ayespy-config.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aye-spy": "^4.3.0"
+  }
+}

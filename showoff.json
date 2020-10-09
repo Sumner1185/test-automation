@@ -1,0 +1,45 @@
+{
+  "name": "ECS Digital Academy",
+  "templates" : {
+    "default" : "default.tpl"
+  },
+
+  "sections": {
+    "Test_Automation": [
+      "Foundation/Test_Automation/intro.md",
+      "Foundation/Test_Automation/course-structure.md",
+      "Foundation/Test_Automation/content/introduction/what-is-test-automation.md",
+      "Foundation/Test_Automation/content/introduction/why-test-automation.md",
+      "Foundation/Test_Automation/content/introduction/manual-vs-automated-testing.md",
+      "Foundation/Test_Automation/content/introduction/what-to-automate.md",
+      "Foundation/Test_Automation/content/introduction/test-automation-strategy.md",
+      "Foundation/Test_Automation/content/introduction/selecting-an-automation-tool.md",
+      "Foundation/Test_Automation/content/introduction/types-of-automated-tests.md",
+      "Foundation/Test_Automation/content/unit-testing/introduction-to-unit-testing.md",
+      "Foundation/Test_Automation/content/unit-testing/unit-testing-frameworks.md",
+      "Foundation/Test_Automation/content/unit-testing/jest-getting-started.md",
+      "Foundation/Test_Automation/content/unit-testing/jest-matchers.md",
+      "Foundation/Test_Automation/content/unit-testing/jest-setup-and-teardown.md",
+      "Foundation/Test_Automation/content/unit-testing/jest-async-tests.md",
+      "Foundation/Test_Automation/content/unit-testing/jest-mocking.md",
+      "Foundation/Test_Automation/content/integration-testing/introduction-to-integration-testing.md",
+      "Foundation/Test_Automation/content/integration-testing/integration-testing-frameworks.md",
+      "Foundation/Test_Automation/content/integration-testing/mock-servers.md",
+      "Foundation/Test_Automation/content/integration-testing/chai-get-request.md",
+      "Foundation/Test_Automation/content/integration-testing/chai-post-request.md",
+      "Foundation/Test_Automation/content/integration-testing/lab.md",
+      "Foundation/Test_Automation/content/functional-testing/introduction-to-functional-testing.md",
+      "Foundation/Test_Automation/content/functional-testing/functional-testing-frameworks.md",
+      "Foundation/Test_Automation/content/functional-testing/cypress-getting-started.md",
+      "Foundation/Test_Automation/content/functional-testing/cypress-test-runner.md",
+      "Foundation/Test_Automation/content/functional-testing/cypress-api.md",
+      "Foundation/Test_Automation/content/functional-testing/cypress-custom-commands.md",
+      "Foundation/Test_Automation/content/functional-testing/lab.md",
+      "Foundation/Test_Automation/content/visual-testing/introduction-to-visual-testing.md",
+      "Foundation/Test_Automation/content/visual-testing/visual-testing-frameworks.md",
+      "Foundation/Test_Automation/content/visual-testing/ayespy-getting-started.md",
+      "Foundation/Test_Automation/content/visual-testing/ayespy-cli-commands.md",
+      "Foundation/Test_Automation/content/visual-testing/lab.md"
+    ]
+  }
+}
